@@ -4,10 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'Benjamin Kostiuk',
     description:
-      'Benjamin Kostiuk is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Benjamin Kostiuk is a Computer Science student at McMaster University with experience in web and application development.',
     siteUrl: 'https://benkostiuk.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    image: '/og.PNG', // Path to your image you placed in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,8 +22,8 @@ module.exports = {
         name: 'BenjaminKostiuk',
         short_name: 'BenKostiuk',
         start_url: '/',
-        background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
+        background_color: config.colors.bg,
+        theme_color: config.colors.primary,
         display: 'minimal-ui',
         icon: 'src/images/logo.png',
       },
@@ -77,7 +76,7 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.green },
+              tracedSVG: { color: config.colors.primary },
             },
           },
           {
