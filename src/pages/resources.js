@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-import kebabCase from 'lodash/kebabCase';
+// import kebabCase from 'lodash/kebabCase';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
@@ -10,16 +10,7 @@ import { IconBookmark } from '@components/icons';
 const StyledMainContainer = styled.main`
   & > header {
     margin-bottom: 100px;
-    text-align: center;
-
-    a {
-      &:hover,
-      &:focus {
-        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
-            20 0,
-          auto;
-      }
-    }
+    text-align: left;
   }
 
   footer {
@@ -40,14 +31,14 @@ const StyledGrid = styled.ul`
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 `;
-const StyledPost = styled.li`
+const StyledResource = styled.li`
   transition: var(--transition);
   cursor: default;
 
   @media (prefers-reduced-motion: no-preference) {
     &:hover,
     &:focus-within {
-      .post__inner {
+      .resource__inner {
         transform: translateY(-7px);
       }
     }
@@ -58,7 +49,7 @@ const StyledPost = styled.li`
     z-index: 1;
   }
 
-  .post__inner {
+  .resource__inner {
     ${({ theme }) => theme.mixins.boxShadow};
     ${({ theme }) => theme.mixins.flexBetween};
     flex-direction: column;
@@ -76,7 +67,7 @@ const StyledPost = styled.li`
     }
   }
 
-  .post__icon {
+  .resource__icon {
     ${({ theme }) => theme.mixins.flexBetween};
     color: var(--primary-color);
     margin-bottom: 30px;
@@ -88,7 +79,7 @@ const StyledPost = styled.li`
     }
   }
 
-  .post__title {
+  .resource__title {
     margin: 0 0 10px;
     color: var(--lightest-text-color);
     font-size: var(--fz-xxl);
@@ -109,19 +100,18 @@ const StyledPost = styled.li`
     }
   }
 
-  .post__desc {
+  .resource__desc {
     color: var(--light-text-color);
     font-size: 17px;
   }
 
-  .post__date {
+  .resource__date {
     color: var(--light-text-color);
     font-family: var(--font-mono);
     font-size: var(--fz-xxs);
-    text-transform: uppercase;
   }
 
-  ul.post__tags {
+  ul.resource__tags {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
@@ -142,46 +132,41 @@ const StyledPost = styled.li`
   }
 `;
 
-const PensievePage = ({ location, data }) => {
-  const posts = data.allMarkdownRemark.edges;
+const ResourcePage = ({ location, data }) => {
+  const resources = data.allMarkdownRemark.edges;
 
   return (
     <Layout location={location}>
-      <Helmet title="Pensieve" />
+      <Helmet title="Resources" />
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-heading">Pensieve</h1>
-          <p className="subtitle">
-            <a href="https://www.wizardingworld.com/writing-by-jk-rowling/pensieve">
-              a collection of memories
-            </a>
-          </p>
+          <h1 className="big-heading">Resources</h1>
+          <p className="subtitle">A collection of helpful files from past courses</p>
         </header>
 
         <StyledGrid>
-          {posts.length > 0 &&
-            posts.map(({ node }, i) => {
+          {resources.length > 0 &&
+            resources.map(({ node }, i) => {
               const { frontmatter } = node;
-              const { title, description, slug, date, tags } = frontmatter;
-              const formattedDate = new Date(date).toLocaleDateString();
+              const { title, description, slug, date } = frontmatter;
 
               return (
-                <StyledPost key={i}>
-                  <div className="post__inner">
+                <StyledResource key={i}>
+                  <div className="resource__inner">
                     <header>
-                      <div className="post__icon">
+                      <div className="resource__icon">
                         <IconBookmark />
                       </div>
-                      <h5 className="post__title">
+                      <h5 className="resource__title">
                         <Link to={slug}>{title}</Link>
                       </h5>
-                      <p className="post__desc">{description}</p>
+                      <p className="resource__desc">{description}</p>
                     </header>
 
                     <footer>
-                      <span className="post__date">{formattedDate}</span>
-                      <ul className="post__tags">
+                      <span className="resource__date">{date}</span>
+                      {/* <ul className="resource__tags">
                         {tags.map((tag, i) => (
                           <li key={i}>
                             <Link to={`/pensieve/tags/${kebabCase(tag)}/`} className="inline-link">
@@ -189,10 +174,10 @@ const PensievePage = ({ location, data }) => {
                             </Link>
                           </li>
                         ))}
-                      </ul>
+                      </ul> */}
                     </footer>
                   </div>
-                </StyledPost>
+                </StyledResource>
               );
             })}
         </StyledGrid>
@@ -201,18 +186,18 @@ const PensievePage = ({ location, data }) => {
   );
 };
 
-PensievePage.propTypes = {
+ResourcePage.propTypes = {
   location: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,
 };
 
-export default PensievePage;
+export default ResourcePage;
 
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/posts/" }, frontmatter: { draft: { ne: true } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fileAbsolutePath: { regex: "/resources/" } }
+      sort: { fields: [frontmatter___title], order: ASC }
     ) {
       edges {
         node {
@@ -222,7 +207,6 @@ export const pageQuery = graphql`
             slug
             date
             tags
-            draft
           }
           html
         }
