@@ -1,9 +1,8 @@
 ---
-title: WordPress Publishing Error
-description: Trying to create a simple post in WordPress
-date: 2019-12-03
-draft: false
-slug: /pensieve/wordpress-publish-error
+title: COMPSCI 2ME3
+description: Introduction to Software Development.
+date: Winter 2019
+slug: /resources/cs-2me3
 tags:
   - WordPress
 ---

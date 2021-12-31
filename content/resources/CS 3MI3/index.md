@@ -1,9 +1,8 @@
 ---
-title: Docker Compose Error
-description: docker-compose version discrepancies
-date: '2019-12-13'
-draft: false
-slug: '/pensieve/docker-error'
+title: COMPSCI 3MI3
+description: Principles of Programming Languages.
+date: Fall 2021
+slug: /resources/cs-3mi3
 tags:
   - WordPress
   - Docker

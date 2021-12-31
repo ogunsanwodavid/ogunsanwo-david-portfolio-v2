@@ -1,9 +1,8 @@
 ---
-title: Markdown Test File
-description: abc234
-date: 2019-12-07
-draft: true
-slug: /pensieve/markdown-playground
+title: COMPSCI 3SD3
+description: Concurrent Systems.
+date: Fall 2021
+slug: /resources/cs-3sd3
 tags:
   - Testing
 ---
