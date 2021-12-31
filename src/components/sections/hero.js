@@ -12,9 +12,14 @@ const StyledHeroSection = styled.section`
   align-items: flex-start;
   min-height: 100vh;
   padding: 0;
-
+  
   @media (max-width: 480px) and (min-height: 700px) {
     padding-bottom: 10vh;
+  }
+
+  // Make sure top of hero is not hidden by nav
+  @media (max-height: 750px) {
+    margin-top: 18%;
   }
 
   h1 {
