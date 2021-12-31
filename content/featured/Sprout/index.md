@@ -4,6 +4,8 @@ title: 'Sprout'
 cover: './sprout.jpg'
 github: 'https://github.com/benjaminkostiuk/sprout'
 external: 'https://github.com/benjaminkostiuk/sprout'
+android: 'yes'
+ios: 'no'
 tech:
   - Flutter
   - Dart
