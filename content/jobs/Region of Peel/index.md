@@ -1,7 +1,8 @@
 ---
 date: '2019-05-04'
 title: 'Software Developer Intern'
-company: 'Region of Peel'
+company: 'Peel'
+companyFullName: 'Region of Peel'
 location: 'Brampton, ON'
 range: 'May - August 2019'
 url: 'https://www.peelregion.ca/'

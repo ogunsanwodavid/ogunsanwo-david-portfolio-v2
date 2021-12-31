@@ -172,6 +172,7 @@ const Jobs = () => {
             frontmatter {
               title
               company
+              companyFullName
               location
               range
               url
@@ -269,7 +270,7 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, companyFullName, range } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -285,7 +286,7 @@ const Jobs = () => {
                       <span className="company">
                         &nbsp;@&nbsp;
                         <a href={url} className="inline-link">
-                          {company}
+                          {companyFullName || company}
                         </a>
                       </span>
                     </h3>

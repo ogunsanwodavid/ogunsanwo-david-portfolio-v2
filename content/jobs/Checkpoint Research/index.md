@@ -1,7 +1,8 @@
 ---
 date: '2018-06-04'
 title: 'Web Developer'
-company: 'Checkpoint Research'
+company: 'Checkpoint'
+companyFullName: 'Checkpoint Research'
 location: 'Toronto, ON'
 range: 'June - August 2018'
 url: 'https://www.linkedin.com/company/checkpoint-research-inc/'

@@ -1,7 +1,8 @@
 ---
 date: '2020-05-04'
 title: 'Full Stack Developer Intern'
-company: 'Royal Bank of Canada'
+company: 'RBC'
+companyFullName: 'Royal Bank of Canada'
 location: 'Toronto, ON'
 range: 'May - December 2020'
 url: 'https://www.rbcroyalbank.com/personal.html'
