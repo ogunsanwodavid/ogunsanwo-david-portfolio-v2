@@ -17,6 +17,8 @@
   </a>
 </p>
 
+![demo](https://raw.githubusercontent.com/benjaminkostiuk/benjaminkostiuk.github.io/main/src/images/demo.PNG)
+
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
