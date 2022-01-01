@@ -13,8 +13,8 @@ tags:
       <th>Year</th>
       <th>Term</th>
       <th>Title</th>
-      <th className="hide-on-mobile">Source</th>
-      <th className="hide-on-mobile">Medium</th>
+      <th class="hide-on-mobile">Source</th>
+      <th class="hide-on-mobile">Medium</th>
     </tr>
   </thead>
   <tbody>
