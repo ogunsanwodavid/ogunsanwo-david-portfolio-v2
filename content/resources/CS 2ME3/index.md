@@ -133,17 +133,6 @@ tags:
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF62jBKXeag_oX-wbvO?e=mGIxqW" target="_blank">
-          Final Exam
-        </a>
-      </td>
-      <td class="hide-on-mobile">Course Notes</td>
-      <td class="overline hide-on-mobile">PDF</td>
-    </tr>
-    <tr>
-      <td class="overline date">2020</td>
-      <td class="overline date">Winter</td>
-      <td class="title">
-       <a href="https://1drv.ms/b/s!Arov9257fZF62jBKXeag_oX-wbvO?e=mGIxqW" target="_blank">
           Final Exam Student Submission
         </a>
       </td>
