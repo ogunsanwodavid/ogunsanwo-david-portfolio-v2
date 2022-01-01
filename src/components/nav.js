@@ -137,7 +137,11 @@ const Nav = ({ isHome }) => {
   const scrollDirection = useScrollDirection('down');
   const [scrolledToTop, setScrolledToTop] = useState(true);
   const prefersReducedMotion = usePrefersReducedMotion();
-  const [IsDarkMode, setIsDarkMode] = useState(false);
+
+  const IsDark =
+    getComputedStyle(document.documentElement).getPropertyValue('--bg-color') ===
+    Colors.dark['--bg-color'];
+  const [IsDarkMode, setIsDarkMode] = useState(IsDark);
 
   const handleScroll = () => {
     setScrolledToTop(window.pageYOffset < 50);
