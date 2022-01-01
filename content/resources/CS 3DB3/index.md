@@ -8,9 +8,27 @@ tags:
   - CSS
 ---
 
-| Syntax    | Description                                   |
-| --------- | --------------------------------------------- |
-| Header    | <a href=/ aria-label="External Link">test</a> |
-| Paragraph | Text                                          |
-
-Answer here: https://codepen.io/anon/pen/zxXVjv?editors=1100
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Term</th>
+      <th>Title</th>
+      <th className="hide-on-mobile">Source</th>
+      <th className="hide-on-mobile">Medium</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="overline date">2021</td>
+      <td class="overline date">Fall</td>
+      <td class="title">
+       <a href="http://duckduckgo.com" target="_blank">
+          A1 Questions
+        </a>
+      </td>
+      <td class="hide-on-mobile">Course Notes</td>
+      <td class="overline hide-on-mobile">PDF</td>
+    </tr>
+  </tbody>
+</table>
