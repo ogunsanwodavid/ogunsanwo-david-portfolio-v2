@@ -45,11 +45,23 @@ const StyledHeroSection = styled.section`
     color: var(--text-color);
     line-height: 0.9;
     font-size: clamp(50px, 9vw, 90px);
+
+    @media (max-width: 450px) {
+      font-size: clamp(42px, 8vw, 80px);
+    }
+  }
+
+  .name-heading {
+    font-size: clamp(55px, 9.5vw, 95px);
   }
 
   p {
     margin: 20px 0 0;
     max-width: 85%;
+
+    @media (max-width: 900px) {
+      max-width: 100%;
+    }
   }
 
   .resume-link {
