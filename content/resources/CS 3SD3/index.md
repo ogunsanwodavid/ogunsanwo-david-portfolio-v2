@@ -19,22 +19,22 @@ tags:
   </thead>
   <tbody>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Fall</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF6yk4PORGR8rDK2z0t" target="_blank">
-          Midterm 2020
+          Midterm 2021
         </a>
       </td>
       <td class="hide-on-mobile">Course Notes</td>
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Fall</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF6yk1HieghXgRCxuTm" target="_blank">
-          Final 2020
+          Final 2021
         </a>
       </td>
       <td class="hide-on-mobile">Course Notes</td>

@@ -1,7 +1,7 @@
 ---
 title: COMPSCI 3AC3
 description: Advanced Algorithms.
-date: Winter 2020
+date: Winter 2021
 slug: /resources/cs-3ac3
 tags:
   - Accessibility
@@ -20,51 +20,51 @@ tags:
   </thead>
   <tbody>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF62xHxZ3YkIJK5EAbr?e=0aggkx" target="_blank">
-          Final 2020 Practice Questions
+          Final 2021 Practice Questions
         </a>
       </td>
       <td class="hide-on-mobile">Personal</td>
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF62xBfwN-M0O09HeUx?e=AdLuhy" target="_blank">
-          Final 2020 Practice Solutions
+          Final 2021 Practice Solutions
         </a>
       </td>
       <td class="hide-on-mobile">Personal</td>
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF64EFhHI7ci9_xFGkb?e=1FI9HF" target="_blank">
-          Midterm 2020 Questions (Adapted)
+          Midterm 2021 Questions (Adapted)
         </a>
       </td>
       <td class="hide-on-mobile">Personal</td>
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF64Eik5LtJaBd1-N-x?e=uFCMcV" target="_blank">
-          Midterm 2020 Solutions (Adapted)
+          Midterm 2021 Solutions (Adapted)
         </a>
       </td>
       <td class="hide-on-mobile">Personal</td>
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF6xyExj5NpZfEkZIIC?e=8t4AOM" target="_blank">
@@ -75,7 +75,7 @@ tags:
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF6x0li06Kdz_vgqXkI?e=mWcsOq" target="_blank">
@@ -86,7 +86,7 @@ tags:
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF6yAEIL1vE1pw5-_bO?e=giogop" target="_blank">
@@ -97,7 +97,7 @@ tags:
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF64EyVtrdbobpxbYZU?e=qfVZLD" target="_blank">
@@ -108,7 +108,7 @@ tags:
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF64E0P_n5NaZj4G3sV?e=gVsMZn" target="_blank">
@@ -119,7 +119,7 @@ tags:
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://github.com/mathiasuy/Soluciones-Klenberg" target="_blank">
@@ -130,7 +130,7 @@ tags:
       <td class="overline hide-on-mobile">Repository</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF6xxOZ7wmjnBycjE_M?e=IeHFsU" target="_blank">
@@ -141,7 +141,7 @@ tags:
       <td class="overline hide-on-mobile">PDF</td>
     </tr>
     <tr>
-      <td class="overline date">2020</td>
+      <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
        <a href="https://1drv.ms/u/s!Arov9257fZF6xx3qD-eFymW-PrCW?e=AqBFuK" target="_blank">
