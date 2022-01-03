@@ -45,6 +45,28 @@ tags:
       <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
+       <a href="https://1drv.ms/b/s!Arov9257fZF64Ff1INQ1IkSopGiS?e=vYc84a" target="_blank">
+          Final 2021 Questions (Adapted)
+        </a>
+      </td>
+      <td class="hide-on-mobile">Personal</td>
+      <td class="overline hide-on-mobile">PDF</td>
+    </tr>
+    <tr>
+      <td class="overline date">2021</td>
+      <td class="overline date">Winter</td>
+      <td class="title">
+       <a href="https://1drv.ms/b/s!Arov9257fZF64GHaNaWsd1Ka4v4h?e=bajgB6" target="_blank">
+          Final 2021 Student Solution (Adapted)
+        </a>
+      </td>
+      <td class="hide-on-mobile">Personal</td>
+      <td class="overline hide-on-mobile">PDF</td>
+    </tr>
+    <tr>
+      <td class="overline date">2021</td>
+      <td class="overline date">Winter</td>
+      <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF64EFhHI7ci9_xFGkb?e=1FI9HF" target="_blank">
           Midterm 2021 Questions (Adapted)
         </a>
