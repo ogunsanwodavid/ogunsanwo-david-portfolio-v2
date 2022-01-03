@@ -107,5 +107,16 @@ tags:
       <td class="hide-on-mobile">Personal</td>
       <td class="overline hide-on-mobile">Folder</td>
     </tr>
+    <tr>
+      <td class="overline date">2020</td>
+      <td class="overline date">Winter</td>
+      <td class="title">
+       <a href="https://1drv.ms/b/s!Arov9257fZF64FPBNgMlVMz5F4ll?e=TZzwuj" target="_blank">
+          Midterm 2020
+        </a>
+      </td>
+      <td class="hide-on-mobile">Course Notes</td>
+      <td class="overline hide-on-mobile">PDF</td>
+    </tr>
   </tbody>
 </table>
