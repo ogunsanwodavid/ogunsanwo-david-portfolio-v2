@@ -23,6 +23,28 @@ tags:
       <td class="overline date">2021</td>
       <td class="overline date">Winter</td>
       <td class="title">
+       <a href="https://1drv.ms/b/s!Arov9257fZF6xxOZ7wmjnBycjE_M?e=IeHFsU" target="_blank">
+          Algorithm Design Textbook
+        </a>
+      </td>
+      <td class="hide-on-mobile">Online</td>
+      <td class="overline hide-on-mobile">PDF</td>
+    </tr>
+    <tr>
+      <td class="overline date">2021</td>
+      <td class="overline date">Winter</td>
+      <td class="title">
+       <a href="https://1drv.ms/u/s!Arov9257fZF6xx3qD-eFymW-PrCW?e=AqBFuK" target="_blank">
+          Lecture Notes
+        </a>
+      </td>
+      <td class="hide-on-mobile">Personal</td>
+      <td class="overline hide-on-mobile">OneNote Notebook</td>
+    </tr>
+    <tr>
+      <td class="overline date">2021</td>
+      <td class="overline date">Winter</td>
+      <td class="title">
        <a href="https://1drv.ms/b/s!Arov9257fZF62xHxZ3YkIJK5EAbr?e=0aggkx" target="_blank">
           Final 2021 Practice Questions
         </a>
@@ -150,28 +172,6 @@ tags:
       </td>
       <td class="hide-on-mobile">Online</td>
       <td class="overline hide-on-mobile">Repository</td>
-    </tr>
-    <tr>
-      <td class="overline date">2021</td>
-      <td class="overline date">Winter</td>
-      <td class="title">
-       <a href="https://1drv.ms/b/s!Arov9257fZF6xxOZ7wmjnBycjE_M?e=IeHFsU" target="_blank">
-          Algorithm Design Textbook
-        </a>
-      </td>
-      <td class="hide-on-mobile">Online</td>
-      <td class="overline hide-on-mobile">PDF</td>
-    </tr>
-    <tr>
-      <td class="overline date">2021</td>
-      <td class="overline date">Winter</td>
-      <td class="title">
-       <a href="https://1drv.ms/u/s!Arov9257fZF6xx3qD-eFymW-PrCW?e=AqBFuK" target="_blank">
-          Lecture Notes
-        </a>
-      </td>
-      <td class="hide-on-mobile">Personal</td>
-      <td class="overline hide-on-mobile">PDF</td>
     </tr>
 
   </tbody>
