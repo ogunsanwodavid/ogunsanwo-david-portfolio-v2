@@ -151,7 +151,7 @@ const About = () => {
               <a href="https://www.coveo.com/en" target="_blank" rel="noreferrer">
                 unicorn company
               </a>
-              . Some of my favorite projects I've built (an am still working on) include{' '}
+              . Some of my favorite projects include{' '}
               <a href="https://benkostiuk.com/particle-divide/" target="_blank" rel="noreferrer">
                 a little game playing with particles
               </a>
