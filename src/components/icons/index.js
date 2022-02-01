@@ -10,6 +10,7 @@ export { default as Icon } from './icon';
 export { default as IconGitHub } from './github';
 export { default as IconGmail } from './gmail';
 export { default as IconInstagram } from './instagram';
+export { default as IconItchio } from './itch.io';
 export { default as IconLight } from './light';
 export { default as IconLinkedin } from './linkedin';
 export { default as IconLoader } from './loader';

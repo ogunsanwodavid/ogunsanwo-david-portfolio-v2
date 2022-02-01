@@ -34,6 +34,10 @@ module.exports = {
     //   name: 'Codepen',
     //   url: 'CODEPEN_URL',
     // },
+    {
+      name: 'Itch.io',
+      url: 'https://benkostiuk.itch.io',
+    },
   ],
 
   navLinks: [
