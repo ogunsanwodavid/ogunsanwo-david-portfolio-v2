@@ -134,6 +134,10 @@ const Hero = () => {
           McMaster University
         </a>
         , with experience in web and application development. I've previously interned at{' '}
+        <a href="https://www.affirm.com/" target="_blank" rel="noreferrer">
+          Affirm
+        </a>
+        ,{' '}
         <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noreferrer">
           RBC
         </a>{' '}
@@ -141,12 +145,8 @@ const Hero = () => {
         <a href="https://www.coveo.com/en" target="_blank" rel="noreferrer">
           Coveo
         </a>{' '}
-        supporting the development of large-scale data-intensive applications responsible for core
-        business functionality. This summer I'm interning at{' '}
-        <a href="https://www.affirm.ca/" target="_blank" rel="noreferrer">
-          Affirm
-        </a>
-        !
+        supporting the development of large-scale data-intensive applications and data pipelines
+        responsible for core business functionality.
       </p>
     </>
   );
