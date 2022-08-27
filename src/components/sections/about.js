@@ -132,10 +132,11 @@ const About = () => {
           <div>
             <p>Hi there!</p>
             <p>
-              I'm Benjamin Kostiuk, a Computer Science student at McMaster University in my third
-              year. Most of my experience is in full-stack web development with personal pursuits in
-              mobile development, DevOps and information security. I'm always experimenting and
-              trying to build cool projects.
+              I'm Benjamin Kostiuk, a Computer Science student at McMaster University in my fourth
+              year. I do a bit of everything with experience in full-stack web development, data
+              pipelines and building data-intensive applications. Personal pursuits include mobile
+              development, DevOps and Web3 dev. I'm always experimenting and trying to build cool
+              projects.
             </p>
 
             <p>
@@ -143,13 +144,13 @@ const About = () => {
               <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noreferrer">
                 banks
               </a>
-              ,
-              <a href="https://www.peelregion.ca/" target="_blank" rel="noreferrer">
-                my local branch of government
-              </a>{' '}
-              and an intelligent search{' '}
+              , a
+              <a href="https://www.affirm.com/" target="_blank" rel="noreferrer">
+                fintech BNPL giant
+              </a>
+              , and an intelligent search{' '}
               <a href="https://www.coveo.com/en" target="_blank" rel="noreferrer">
-                unicorn company
+                SaaS company
               </a>
               . Some of my favorite projects include{' '}
               <a href="https://benkostiuk.com/particle-divide/" target="_blank" rel="noreferrer">
@@ -170,11 +171,8 @@ const About = () => {
             </p>
 
             <p>
-              Next summer I’ll be interning with{' '}
-              <a href="https://www.affirm.ca/" target="_blank" rel="noreferrer">
-                Affirm
-              </a>
-              , but I will be looking for full time positions once I graduate in April 2023.
+              With graduation just around the corner, I’m looking for new grad positions starting in
+              2023.
             </p>
 
             <p>Here are a few of the technologies I use to build projects:</p>
