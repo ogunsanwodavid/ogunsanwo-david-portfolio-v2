@@ -132,15 +132,21 @@ const About = () => {
           <div>
             <p>Hi there!</p>
             <p>
-              I'm Benjamin Kostiuk, a Computer Science student at McMaster University in my fourth
-              year. I do a bit of everything with experience in full-stack web development, data
-              pipelines and building data-intensive applications. Personal pursuits include mobile
-              development, DevOps and Web3 dev. I'm always experimenting and trying to build cool
-              projects.
+              I'm Benjamin Kostiuk, a software developer who enjoys writing code for money on the
+              internet. My background is in building full stack applications, data pipelines,
+              real-time highly available infrastructure, and data intensive applications.
+            </p>
+            <p>
+              I currently work @ RBC supporting their Next Best Action marketing team. If you've
+              received an offer for an RBC product by email, phone, or push notification, I probably
+              had a hand in building the systems and data pipelines that decided which offer was
+              right for you, when to contact you, and how best to reach you! Some of my personal
+              pursuits include mobile development, DevOps and Web3 dev. I'm always experimenting and
+              trying to build cool projects.
             </p>
 
             <p>
-              Throughout university, I've had the opportunity to intern with{' '}
+              I've had the opportunity to intern with{' '}
               <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noreferrer">
                 banks
               </a>
@@ -168,11 +174,6 @@ const About = () => {
                 platform for students
               </a>{' '}
               to collaborate when writing unit tests for projects.
-            </p>
-
-            <p>
-              With graduation just around the corner, I’m looking for new grad positions starting in
-              2023.
             </p>
 
             <p>Here are a few of the technologies I use to build projects:</p>

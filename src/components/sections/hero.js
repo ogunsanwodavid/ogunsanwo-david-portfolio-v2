@@ -129,24 +129,23 @@ const Hero = () => {
   const description = (
     <>
       <p>
-        I’m a Computer Science student at{' '}
-        <a href="https://www.mcmaster.ca/" target="_blank" rel="noreferrer">
-          McMaster University
-        </a>
-        , with experience in web and application development. I've previously interned at{' '}
-        <a href="https://www.affirm.com/" target="_blank" rel="noreferrer">
-          Affirm
-        </a>
-        ,{' '}
-        <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noreferrer">
+        I’m a senior full stack developer at{' '}
+        <a href="https://www.rbcroyalbank.com/personal.html/" target="_blank" rel="noreferrer">
           RBC
         </a>{' '}
-        and{' '}
+        writing code for the beautiful marriage of money and the internet. I develop full-stack
+        data-intensive applications and data pipelines running on real-time highly available
+        infrastructure to support RBC's marketing arm.
+        <br />
+        I've previously interned at{' '}
+        <a href="https://www.affirm.com/" target="_blank" rel="noreferrer">
+          Affirm
+        </a>{' '}
+        supporting the investor experience team responsible for investor reporting, and at{' '}
         <a href="https://www.coveo.com/en" target="_blank" rel="noreferrer">
           Coveo
         </a>{' '}
-        supporting the development of large-scale data-intensive applications and data pipelines
-        responsible for core business functionality.
+        supporting the plugins team, automating testing for their Slack plugin.
       </p>
     </>
   );

@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Benjamin Kostiuk',
     description:
-      'Benjamin Kostiuk is a Computer Science student at McMaster University with experience in web and application development.',
+      'Benjamin Kostiuk is a Software Developer at Royal Bank of Canada writing code for the beautiful marriage of money and the internet.',
     siteUrl: 'https://benkostiuk.com', // No trailing slash allowed!
     image: '/og.PNG', // Path to your image you placed in the 'static' folder
   },
