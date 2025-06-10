@@ -150,7 +150,7 @@ const About = () => {
               <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noreferrer">
                 banks
               </a>
-              , a
+              , a{' '}
               <a href="https://www.affirm.com/" target="_blank" rel="noreferrer">
                 fintech BNPL giant
               </a>
