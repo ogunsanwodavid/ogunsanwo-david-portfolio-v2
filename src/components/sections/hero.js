@@ -84,6 +84,7 @@ const StyledSocialLinks = styled.div`
 
     a {
       padding: 15px;
+      padding-left: 0;
       &:hover,
       &:focus {
         transform: translateY(-3px);
@@ -110,7 +111,7 @@ const Hero = () => {
   }, []);
 
   const greeting = <h1>Hey, I'm</h1>;
-  const name = <h2 className="big-heading name-heading">Ben Kostiuk</h2>;
+  const name = <h2 className="big-heading name-heading">David Ogunsanwo</h2>;
   const brief = <h3 className="big-heading">Software Developer</h3>;
   const socials = (
     <StyledSocialLinks>
@@ -129,23 +130,11 @@ const Hero = () => {
   const description = (
     <>
       <p>
-        I’m a senior full stack developer at{' '}
-        <a href="https://www.rbcroyalbank.com/personal.html/" target="_blank" rel="noreferrer">
-          RBC
-        </a>{' '}
-        writing code for the beautiful marriage of money and the internet. I develop full-stack
-        data-intensive applications and data pipelines running on real-time highly available
-        infrastructure to support RBC's marketing arm.
-        <br />
-        I've previously interned at{' '}
-        <a href="https://www.affirm.com/" target="_blank" rel="noreferrer">
-          Affirm
-        </a>{' '}
-        supporting the investor experience team responsible for investor reporting, and at{' '}
-        <a href="https://www.coveo.com/en" target="_blank" rel="noreferrer">
-          Coveo
-        </a>{' '}
-        supporting the plugins team, automating testing for their Slack plugin.
+        I’m a full-stack developer building modern, scalable web applications that bridge design and
+        functionality. I’ve delivered end-to-end solutions for clients as a freelancer, from
+        crafting intuitive front-end experiences to designing and deploying robust back-end systems.
+        My work spans responsive UIs, API development, and database design, always focused on
+        performance, maintainability, and client impact.
       </p>
     </>
   );

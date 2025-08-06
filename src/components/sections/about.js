@@ -132,91 +132,88 @@ const About = () => {
           <div>
             <p>Hi there!</p>
             <p>
-              I'm Benjamin Kostiuk, a software developer who enjoys writing code for money on the
-              internet. My background is in building full stack applications, data pipelines,
-              real-time highly available infrastructure, and data intensive applications.
-            </p>
-            <p>
-              I currently work @ RBC supporting their Next Best Action marketing team. If you've
-              received an offer for an RBC product by email, phone, or push notification, I probably
-              had a hand in building the systems and data pipelines that decided which offer was
-              right for you, when to contact you, and how best to reach you! Some of my personal
-              pursuits include mobile development, DevOps and Web3 dev. I'm always experimenting and
-              trying to build cool projects.
+              My name is Dave (or 0x) and I'm a Computer Engineering undergraduate with over 3 years
+              experience building scalable software.
             </p>
 
             <p>
-              I've had the opportunity to intern with{' '}
-              <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noreferrer">
-                banks
-              </a>
-              , a{' '}
-              <a href="https://www.affirm.com/" target="_blank" rel="noreferrer">
-                fintech BNPL giant
-              </a>
-              , and an intelligent search{' '}
-              <a href="https://www.coveo.com/en" target="_blank" rel="noreferrer">
-                SaaS company
-              </a>
-              . Some of my favorite projects include{' '}
-              <a href="https://benkostiuk.com/particle-divide/" target="_blank" rel="noreferrer">
-                a little game playing with particles
-              </a>
-              , my{' '}
-              <a
-                href="https://github.com/benjaminkostiuk/benjaminkostiuk"
-                target="_blank"
-                rel="noreferrer">
-                automatically updating github README
+              Fast-forward to today, and I’ve had the privilege of building
+              <a href="https://krist-ecommerce.vercel.app" rel="noreferrer" target="_blank">
+                an e-commerce platform for a retail brand
               </a>{' '}
-              and a{' '}
-              <a href="https://github.com/puffproject" target="_blank" rel="noreferrer">
-                platform for students
+              and{' '}
+              <a href="https://eventorbit.vercel.app" rel="noreferrer" target="_blank">
+                a high-traffic event ticketing system
+              </a>
+              . I’ve also partnered with developer friends to build exciting projects such as{' '}
+              <a href="https://hora-student-app.vercel.app" rel="noreferrer" target="_blank">
+                {' '}
+                a full-stack student todo-list application
               </a>{' '}
-              to collaborate when writing unit tests for projects.
+              and{' '}
+              <a href="https://career-nova.vercel.app" rel="noreferrer" target="_blank">
+                a career / mentoring app with AI integration.
+              </a>
             </p>
 
-            <p>Here are a few of the technologies I use to build projects:</p>
+            <p>
+              Aside programming, I have deep interests in Mathematics particularly complex analysis
+              and one of my biggest goals in life is to unravel the mystery of the Reimann's
+              conjecture.
+            </p>
+
+            <p>Here are a few technologies I've worked with:</p>
           </div>
           <div className="skills-wrapper">
             <ul className="skills-list">
               <li>
                 <div className="skill-img">
                   <StaticImage
-                    src={`../../images/skills/JavaScript.svg`}
+                    src={`../../images/skills/tailwindcss.svg`}
                     quality={95}
                     formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="JavaScript"
+                    alt="TailwindCSS"
                   />
                 </div>
-                <p className="skill-name">JavaScript</p>
+                <p className="skill-name">TailwindCSS</p>
               </li>
               <li>
                 <div className="skill-img">
                   <StaticImage
-                    src={`../../images/skills/MySQL.svg`}
+                    src={`../../images/skills/typescript.svg`}
                     quality={95}
                     formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="JavaScript"
+                    alt="TypeScript"
                   />
                 </div>
-                <p className="skill-name">MySQL</p>
+                <p className="skill-name">TypeScript</p>
               </li>
               <li>
                 <div className="skill-img">
                   <StaticImage
-                    src={`../../images/skills/Java.svg`}
+                    src={`../../images/skills/nodejs.svg`}
                     quality={95}
                     formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="JavaScript"
+                    alt="Nodejs"
                   />
                 </div>
-                <p className="skill-name">Java</p>
+                <p className="skill-name">Nodejs</p>
               </li>
               <li>
                 <div className="skill-img">
                   <StaticImage
-                    src={`../../images/skills/Python.svg`}
+                    src={`../../images/skills/nextjs.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Next.js"
+                  />
+                </div>
+                <p className="skill-name">Next.js</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/python.svg`}
                     quality={95}
                     formats={['AUTO', 'WEBP', 'AVIF']}
                     alt="JavaScript"
@@ -227,13 +224,35 @@ const About = () => {
               <li>
                 <div className="skill-img">
                   <StaticImage
-                    src={`../../images/skills/Azure.svg`}
+                    src={`../../images/skills/mongodb.svg`}
                     quality={95}
                     formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="JavaScript"
+                    alt="MongoDB"
                   />
                 </div>
-                <p className="skill-name">Azure</p>
+                <p className="skill-name">MongoDB</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/graphql.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="GraphQL"
+                  />
+                </div>
+                <p className="skill-name">GraphQL</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/supabase.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Supabase"
+                  />
+                </div>
+                <p className="skill-name">Supabase</p>
               </li>
               <li>
                 <div className="skill-img">
@@ -241,10 +260,32 @@ const About = () => {
                     src={`../../images/skills/Docker.svg`}
                     quality={95}
                     formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="JavaScript"
+                    alt="Docker"
                   />
                 </div>
                 <p className="skill-name">Docker</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/framermotion.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Framer Motion"
+                  />
+                </div>
+                <p className="skill-name">Framer Motion</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/webflow.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Webflow"
+                  />
+                </div>
+                <p className="skill-name">Webflow</p>
               </li>
             </ul>
           </div>
@@ -254,7 +295,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

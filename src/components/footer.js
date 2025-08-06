@@ -84,10 +84,22 @@ const Footer = () => (
 
     <StyledCredit tabindex="-1">
       <div>
-        <a href="https://github.com/benjaminkostiuk/newsite">Hosted on GitHub &#10084;</a>
+        <a href="https://github.com/ogunsanwodavid/ogunsanwo-david-portfolio-v2">
+          Hosted on GitHub &#10084;
+        </a>
       </div>
       <a href="https://github.com/bchiang7/v4">
-        <div>Adapted from Brittany Chiang's v4 design</div>
+        <div>
+          With{' '}
+          <span role="img" aria-label="heart">
+            ❤️
+          </span>{' '}
+          &{' '}
+          <span role="img" aria-label="rose">
+            🌹
+          </span>
+          from 0x
+        </div>
       </a>
     </StyledCredit>
   </StyledFooter>

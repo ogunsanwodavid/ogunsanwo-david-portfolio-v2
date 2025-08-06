@@ -2,11 +2,11 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Benjamin Kostiuk',
+    title: 'David Ogunsanwo',
     description:
-      'Benjamin Kostiuk is a Software Developer at Royal Bank of Canada writing code for the beautiful marriage of money and the internet.',
-    siteUrl: 'https://benkostiuk.com', // No trailing slash allowed!
-    image: '/og.PNG', // Path to your image you placed in the 'static' folder
+      'David Ogunsanwo is a self-taught Software Developer writing beautiful codes for the beautiful marriage of internet and solutions.',
+    siteUrl: 'https://ogunsanwo-david-portfolio-v2.vercel.app', // No trailing slash allowed!
+    image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

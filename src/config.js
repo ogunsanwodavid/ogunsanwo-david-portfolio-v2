@@ -1,42 +1,26 @@
 module.exports = {
-  email: 'benkostiuk1@gmail.com',
+  email: 'ogunsanwodavid123@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/benjaminkostiuk',
+      url: 'https://github.com/ogunsanwodavid',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/benjaminkostiuk',
+      url: 'https://linkedin.com/in/ogunsanwo-david-399817238',
     },
     {
       name: 'Gmail',
-      url: 'mailto:benkostiuk1@gmail.com',
-    },
-    // {
-    //   name: 'Instagram',
-    //   url: 'INSTA_URL',
-    // },
-    // {
-    //   name: 'Twitter',
-    //   url: 'TWITTER_URL',
-    // },
-    {
-      name: 'Medium',
-      url: 'https://medium.com/@benkostiuk',
+      url: 'mailto:ogunsanwodavid123@gmail.com',
     },
     {
-      name: 'Devpost',
-      url: 'https://devpost.com/benjaminkostiuk',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/i__am__0x',
     },
-    // {
-    //   name: 'Codepen',
-    //   url: 'CODEPEN_URL',
-    // },
     {
-      name: 'Itch.io',
-      url: 'https://benkostiuk.itch.io',
+      name: 'X',
+      url: 'https://x.com/i__am__0x',
     },
   ],
 
@@ -57,10 +41,10 @@ module.exports = {
       name: 'Contact',
       url: '/#contact',
     },
-    {
+    /*     {
       name: 'Resources',
       url: '/resources',
-    },
+    }, */
   ],
 
   colors: {

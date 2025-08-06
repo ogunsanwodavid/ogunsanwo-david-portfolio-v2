@@ -172,7 +172,6 @@ const Jobs = () => {
             frontmatter {
               title
               company
-              companyFullName
               location
               range
               url
