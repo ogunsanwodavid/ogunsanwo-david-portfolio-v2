@@ -88,7 +88,7 @@ const Footer = () => (
           Hosted on GitHub &#10084;
         </a>
       </div>
-      <a href="https://github.com/bchiang7/v4">
+      <a href="https://github.com/ogunsanwodavid/ogunsanwo-david-portfolio-v2">
         <div>
           With{' '}
           <span role="img" aria-label="heart">
