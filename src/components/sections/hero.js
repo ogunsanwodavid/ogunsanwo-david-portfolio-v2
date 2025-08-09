@@ -11,7 +11,7 @@ const StyledHeroSection = styled.section`
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-  padding: 0;
+  padding: 85px 0 0  0;
   
   @media (max-width: 480px) and (min-height: 700px) {
     padding-bottom: 10vh;
@@ -41,7 +41,7 @@ const StyledHeroSection = styled.section`
   }
 
   h3 {
-    margin-top: -5px;
+    margin-top: 5px;
     color: var(--text-color);
     line-height: 0.9;
     font-size: clamp(50px, 9vw, 90px);

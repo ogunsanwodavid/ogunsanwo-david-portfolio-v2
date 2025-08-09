@@ -30,6 +30,7 @@ const StyledHeader = styled.header`
   }
   @media (max-width: 768px) {
     padding: 0 25px;
+    height: var(--nav-height-medium);
   }
 
   @media (prefers-reduced-motion: no-preference) {
@@ -49,6 +50,27 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(calc(var(--nav-scroll-height) * -1));
+        box-shadow: 0 10px 30px -10px var(--bg-color-shadow);
+      `};
+  }
+
+  @media (max-width: 768px) {
+    ${props =>
+    props.scrollDirection === 'up' &&
+      !props.scrolledToTop &&
+      css`
+        height: var(--nav-scroll-height-medium);
+        transform: translateY(0px);
+        background-color: var(--bg-color);
+        box-shadow: 0 10px 30px -10px var(--bg-color-shadow);
+      `};
+
+    ${props =>
+    props.scrollDirection === 'down' &&
+      !props.scrolledToTop &&
+      css`
+        height: var(--nav-scroll-height-medium);
+        transform: translateY(calc(var(--nav-scroll-height-medium) * -1));
         box-shadow: 0 10px 30px -10px var(--bg-color-shadow);
       `};
   }
