@@ -5,7 +5,7 @@
   <a href=https://ogunsanwo-david-portfolio-v2.vercel.app" target="_blank">ogunsanwo-david-portfolio-v2.vercel.app</a>
 </h1>
 <p align="center">
-  The second iteration of <a href="https://ogunsanwo-david-portfolio-v2.vercel.app" target="_blank">my personal website</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercels</a>
+  The second iteration of <a href="https://ogunsanwo-david-portfolio-v2.vercel.app" target="_blank">my personal website</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 <p align="center">
   <a href="https://ogunsanwo-david-portfolio-v2.vercel.app" target="_blank">
@@ -13,7 +13,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/benjaminkostiuk/benjaminkostiuk.github.io/main/src/images/demo.PNG)
+![demo](https://github.com/ogunsanwodavid/ogunsanwo-david-portfolio-v2/blob/main/src/images/demo.png)
 
 ## 🛠 Installation & Set Up
 
@@ -46,7 +46,7 @@
 Generate a full static production build
 
 ```sh
-npm run build
+NODE_OPTIONS=--openssl-legacy-provider npm run build --verbose
 ```
 
 Preview the site as it will appear once deployed
