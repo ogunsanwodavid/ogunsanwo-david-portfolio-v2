@@ -139,13 +139,9 @@ const About = () => {
             <p>
               Fast-forward to today, and I’ve had the privilege of building
               <a href="https://krist-ecommerce.vercel.app" rel="noreferrer" target="_blank">
-                an e-commerce platform for a retail brand
-              </a>{' '}
-              and{' '}
-              <a href="https://eventorbit.vercel.app" rel="noreferrer" target="_blank">
-                a high-traffic event ticketing system
+                a demo e-commerce platform.{' '}
               </a>
-              . I’ve also partnered with developer friends to build exciting projects such as{' '}
+              I’ve also partnered with developer friends to build exciting projects such as{' '}
               <a href="https://hora-student-app.vercel.app" rel="noreferrer" target="_blank">
                 {' '}
                 a full-stack student todo-list application
@@ -197,7 +193,7 @@ const About = () => {
                     alt="Nodejs"
                   />
                 </div>
-                <p className="skill-name">Nodejs</p>
+                <p className="skill-name">Node.js</p>
               </li>
               <li>
                 <div className="skill-img">
@@ -213,13 +209,35 @@ const About = () => {
               <li>
                 <div className="skill-img">
                   <StaticImage
-                    src={`../../images/skills/python.svg`}
+                    src={`../../images/skills/framermotion.svg`}
                     quality={95}
                     formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="JavaScript"
+                    alt="Framer Motion"
                   />
                 </div>
-                <p className="skill-name">Python</p>
+                <p className="skill-name">Framer Motion</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/react.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="React native"
+                  />
+                </div>
+                <p className="skill-name">React Native</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/nestjs.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="nest.js"
+                  />
+                </div>
+                <p className="skill-name">Nest.js</p>
               </li>
               <li>
                 <div className="skill-img">
@@ -264,28 +282,6 @@ const About = () => {
                   />
                 </div>
                 <p className="skill-name">Docker</p>
-              </li>
-              <li>
-                <div className="skill-img">
-                  <StaticImage
-                    src={`../../images/skills/framermotion.svg`}
-                    quality={95}
-                    formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="Framer Motion"
-                  />
-                </div>
-                <p className="skill-name">Framer Motion</p>
-              </li>
-              <li>
-                <div className="skill-img">
-                  <StaticImage
-                    src={`../../images/skills/webflow.svg`}
-                    quality={95}
-                    formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="Webflow"
-                  />
-                </div>
-                <p className="skill-name">Webflow</p>
               </li>
             </ul>
           </div>

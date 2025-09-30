@@ -1,6 +1,6 @@
 ---
 date: '2025-08-04'
-title: 'IT Intern'
+title: 'Network Engineering / IT Intern'
 company: 'INTECU, OAU.'
 location: 'Ife'
 range: 'August 2025 - present'

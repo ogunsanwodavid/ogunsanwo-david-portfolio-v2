@@ -130,11 +130,11 @@ const Hero = () => {
   const description = (
     <>
       <p>
-        I’m a full-stack developer building modern, scalable web applications that bridge design and
-        functionality. I’ve delivered end-to-end solutions for clients as a freelancer, from
-        crafting intuitive front-end experiences to designing and deploying robust back-end systems.
-        My work spans responsive UIs, API development, and database design, always focused on
-        performance, maintainability, and client impact.
+        I’m a full-stack developer building modern, scalable web and mobile applications that bridge
+        design and functionality. I’ve delivered end-to-end solutions for clients as a freelancer,
+        from crafting intuitive front-end experiences to designing and deploying robust back-end
+        systems. My work spans responsive UIs, API development, and database design, always focused
+        on performance, maintainability, and client impact.
       </p>
     </>
   );
