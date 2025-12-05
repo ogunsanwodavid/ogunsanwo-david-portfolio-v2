@@ -1,6 +1,6 @@
 ---
 date: '5'
-title: 'EventOrbit'
+title: 'EventOrbit (...in progress)'
 cover: './eventorbit.png'
 external: 'https://eventorbit.vercel.app/'
 github: 'https://github.com/ogunsanwodavid/eventorbit-backend'

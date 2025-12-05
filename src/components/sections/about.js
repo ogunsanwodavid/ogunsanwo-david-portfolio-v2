@@ -140,7 +140,7 @@ const About = () => {
               Fast-forward to today, and I’ve had the privilege of building
               <a href="https://krist-ecommerce.vercel.app" rel="noreferrer" target="_blank">
                 a demo e-commerce platform.{' '}
-              </a>
+              </a>{' '}
               I’ve also partnered with developer friends to build exciting projects such as{' '}
               <a href="https://hora-student-app.vercel.app" rel="noreferrer" target="_blank">
                 {' '}
@@ -275,6 +275,28 @@ const About = () => {
               <li>
                 <div className="skill-img">
                   <StaticImage
+                    src={`../../images/skills/python.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Python"
+                  />
+                </div>
+                <p className="skill-name">Python</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/postgresql.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Postgres"
+                  />
+                </div>
+                <p className="skill-name">PostgreSQL</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
                     src={`../../images/skills/Docker.svg`}
                     quality={95}
                     formats={['AUTO', 'WEBP', 'AVIF']}
@@ -282,6 +304,17 @@ const About = () => {
                   />
                 </div>
                 <p className="skill-name">Docker</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/redis.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Redis"
+                  />
+                </div>
+                <p className="skill-name">Redis</p>
               </li>
             </ul>
           </div>
