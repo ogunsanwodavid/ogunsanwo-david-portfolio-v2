@@ -2,7 +2,7 @@
 date: '5'
 title: 'EventOrbit (...in progress)'
 cover: './eventorbit.png'
-external: 'https://eventorbit.vercel.app/'
+external: 'https://eventorbit.davidogunsanwo.site/'
 github: 'https://github.com/ogunsanwodavid/eventorbit-backend'
 tech:
   - TypeScript
