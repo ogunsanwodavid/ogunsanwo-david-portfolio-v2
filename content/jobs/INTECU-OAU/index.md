@@ -1,9 +1,9 @@
 ---
 date: '2025-08-04'
 title: 'Network Engineering / IT Intern'
-company: 'INTECU, OAU.'
+company: 'INTECU, OAU'
 location: 'Ife'
-range: 'August 2025 - present'
+range: 'August 2025 - December 25'
 url: 'https://intecu.oauife.edu.ng'
 ---
 

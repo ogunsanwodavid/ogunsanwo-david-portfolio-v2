@@ -1,6 +1,6 @@
 ---
 date: '5'
-title: 'EventOrbit (...in progress)'
+title: 'EventOrbit'
 cover: './eventorbit.png'
 external: 'https://eventorbit.davidogunsanwo.site/'
 github: 'https://github.com/ogunsanwodavid/eventorbit-backend'
