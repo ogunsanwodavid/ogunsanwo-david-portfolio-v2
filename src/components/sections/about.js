@@ -131,48 +131,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>Hi there!</p>
+
             <p>
-              My name is Dave (or 0x) and I'm a Computer Engineering undergraduate with over 3 years
-              experience building scalable software.
+              My name is Dave (or 0x) - a Computer Engineering undergraduate and software engineer
+              with over 4 years of experience architecting scalable web and mobile platforms,
+              high-throughput backend services, and real-time systems.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of building
-              <a href="https://krist-ecommerce.vercel.app" rel="noreferrer" target="_blank">
-                a demo e-commerce platform.{' '}
-              </a>{' '}
-              I’ve also partnered with developer friends to build exciting projects such as{' '}
-              <a href="https://hora-student-app.vercel.app" rel="noreferrer" target="_blank">
-                {' '}
-                a full-stack student todo-list application
-              </a>{' '}
-              and{' '}
-              <a href="https://career-nova.vercel.app" rel="noreferrer" target="_blank">
-                a career / mentoring app with AI integration.
-              </a>
+              Beyond engineering, my mind lives in pure mathematics particularly complex analysis.
+              One of my ultimate intellectual pursuits is exploring the non-trivial zeros of the
+              Riemann zeta function. I also have interest in algorithms and distributed systems.
             </p>
 
             <p>
-              Aside programming, I have deep interests in Mathematics particularly complex analysis
-              and one of my biggest goals in life is to unravel the mystery of the Reimann's
-              conjecture.
+              When I'm not untangling bottlenecks or analyzing mathematical proofs, you’ll probably
+              find me trusting my intuition in a late-night chess match or building fun products.
             </p>
 
             <p>Here are a few technologies I've worked with:</p>
           </div>
           <div className="skills-wrapper">
             <ul className="skills-list">
-              <li>
-                <div className="skill-img">
-                  <StaticImage
-                    src={`../../images/skills/tailwindcss.svg`}
-                    quality={95}
-                    formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="TailwindCSS"
-                  />
-                </div>
-                <p className="skill-name">TailwindCSS</p>
-              </li>
               <li>
                 <div className="skill-img">
                   <StaticImage
@@ -183,17 +163,6 @@ const About = () => {
                   />
                 </div>
                 <p className="skill-name">TypeScript</p>
-              </li>
-              <li>
-                <div className="skill-img">
-                  <StaticImage
-                    src={`../../images/skills/nodejs.svg`}
-                    quality={95}
-                    formats={['AUTO', 'WEBP', 'AVIF']}
-                    alt="Nodejs"
-                  />
-                </div>
-                <p className="skill-name">Node.js</p>
               </li>
               <li>
                 <div className="skill-img">
@@ -209,13 +178,24 @@ const About = () => {
               <li>
                 <div className="skill-img">
                   <StaticImage
+                    src={`../../images/skills/vue.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Next.js"
+                  />
+                </div>
+                <p className="skill-name">Vue.js</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
                     src={`../../images/skills/framermotion.svg`}
                     quality={95}
                     formats={['AUTO', 'WEBP', 'AVIF']}
                     alt="Framer Motion"
                   />
                 </div>
-                <p className="skill-name">Framer Motion</p>
+                <p className="skill-name">(Framer) Motion</p>
               </li>
               <li>
                 <div className="skill-img">
@@ -293,6 +273,28 @@ const About = () => {
                   />
                 </div>
                 <p className="skill-name">PostgreSQL</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/laravel.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Postgres"
+                  />
+                </div>
+                <p className="skill-name">Laravel</p>
+              </li>
+              <li>
+                <div className="skill-img">
+                  <StaticImage
+                    src={`../../images/skills/websocket.svg`}
+                    quality={95}
+                    formats={['AUTO', 'WEBP', 'AVIF']}
+                    alt="Next.js"
+                  />
+                </div>
+                <p className="skill-name">WebSocket</p>
               </li>
               <li>
                 <div className="skill-img">

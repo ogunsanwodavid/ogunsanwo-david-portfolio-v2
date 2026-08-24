@@ -14,14 +14,6 @@ module.exports = {
       name: 'Gmail',
       url: 'mailto:ogunsanwodavid123@gmail.com',
     },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/i__am__0x',
-    },
-    {
-      name: 'X',
-      url: 'https://x.com/i__am__0x',
-    },
   ],
 
   navLinks: [

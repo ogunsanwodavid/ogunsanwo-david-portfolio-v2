@@ -11,7 +11,9 @@ A modern online chess platform providing real-time gameplay, analytics, and inte
 
 ####
 
-- Architected the responsive frontend using Next.js and TypeScript, optimizing the rendering engine for seamless real-time move updates.
-- Orchestrated complex game state management and move validation by integrating chess.js with Zustand for high-performance state updates.
+- Architected the responsive frontend using Next.js and TypeScript, orchestrating real-time gameplay and interactive live chat via WebSockets.
+- Orchestrated complex game state management, client-side engine analysis, and move validation by integrating Stockfish and chess.js with Zustand.
+- Engineered fairplay-monitoring admin tools, real-time trivia gaming modules, and an integrated live support ticketing system.
+- Implemented responsive financial interfaces, building secure payment UI flows, custom wallet management views, and full light/dark mode theming.
+- Spearheaded a comprehensive codebase refactoring from scratch, mitigating critical security vulnerabilities and implementing Zod schema validation to eliminate runtime errors.
 - Enhanced user experience with fluid piece animations using Motion and implemented interactive game analytics dashboards via Recharts.
-- Ensured data integrity and application reliability by implementing comprehensive schema validation using Zod to reduce runtime errors.

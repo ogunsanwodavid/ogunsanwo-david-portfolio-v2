@@ -35,11 +35,15 @@
    yarn
    ```
 
-4. Start the development server
+4. Explicitly force Node to use the legacy OpenSSL provider.
 
-   ```sh
-   npm start
-   ```
+`export NODE_OPTIONS=--openssl-legacy-provider`
+
+5. Start the development server
+
+```sh
+npm start
+```
 
 ## 🚀 Building and Running for Production
 

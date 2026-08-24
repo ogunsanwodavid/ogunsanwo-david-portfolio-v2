@@ -112,7 +112,7 @@ const Hero = () => {
 
   const greeting = <h1>Hey, I'm</h1>;
   const name = <h2 className="big-heading name-heading">David Ogunsanwo</h2>;
-  const brief = <h3 className="big-heading">Software Developer</h3>;
+  const brief = <h3 className="big-heading">Software Engineer</h3>;
   const socials = (
     <StyledSocialLinks>
       <ul>

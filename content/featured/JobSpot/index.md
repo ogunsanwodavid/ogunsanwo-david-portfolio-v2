@@ -2,7 +2,7 @@
 date: '6'
 title: 'JobSpot'
 cover: './jobspot.png'
-external: 'https://url-shortener.me/67IH'
+external: 'https://www.postman.com/ogunsanwodavidoluwadamilare/jobspot/collection/45420001-8a54d2ca-ab89-4123-a8e6-a2176c065a3d?action=share&creator=45420001'
 github: 'https://github.com/ogunsanwodavid/jobspot-server'
 tech:
   - Python
